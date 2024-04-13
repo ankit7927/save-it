@@ -30,6 +30,11 @@
 
     <!-- setting strings -->
     <string name="font_size">Font Size</string>
-    <string name="auto_save_notes">Auto save notes</string>
+    <string name="auto_save">Auto save</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="editor">Editor</string>
+    <string name="auto_save_summery">auto save notes as it changes</string>
+    <string name="font_size_summery">set editor default font size</string>
 
 </resources>
