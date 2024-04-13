@@ -1,0 +1,18 @@
+App Name
+	Save It.
+
+Short Discription
+	Save It. simple and efficient notes taking app.
+
+Long Discription
+	save it app is a simple and efficient notes taking app.
+	in the app you can save unlimited note.
+	also save and organize your notes in different folders.
+	
+	Main Feature
+		1. Take quick notes.
+		2. Save notes in multiple folders.
+		3. Colorfull folders creation.
+
+privacy policy
+	https://sites.google.com/view/save-it-privacy

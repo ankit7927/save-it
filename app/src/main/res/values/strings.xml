@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Save It.</string>
+    <string name="database_name">SaveDatabase</string>
+
+    <string name="note_model">NoteModel</string>
+    <string name="folder_model">NoteModel</string>
+
+    <string name="title_delete_note">Delete Note</string>
+    <string name="title_add_to_folder">Add this note to folder</string>
+    <string name="title_new_folder">New Folder</string>
+    <string name="title_remove_folder">Delete Folder</string>
+
+
+    <string name="message_delete_note">Are you sure to delete this note ?</string>
+    <string name="message_unsaved_note">Unsaved notes can\'t be added to any folder</string>
+    <string name="message_remove_notes">Are you sure to remove all notes from this folder ?</string>
+    <string name="message_delete_folder">Are you sure to delete this folder ?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="tap_notes">Notes</string>
+    <string name="tab_folders">Folders</string>
+
+
+    <string name="fab_create">Folders</string>
+    <string name="back_icon_disc">go to home screen</string>
+    <string name="empty_folder_des">No Any notes in this folder.</string>
+    <string name="no_folder_des">No folder create new by tapping + icon</string>
+
+    <!-- setting strings -->
+    <string name="font_size">Font Size</string>
+    <string name="auto_save_notes">Auto save notes</string>
+
+</resources>

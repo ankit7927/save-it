@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/note_save_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/note_delete_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_delete_24"
+        android:title="Delete" />
+    <item
+        android:id="@+id/add_to_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Add To Folder" />
+</menu>
