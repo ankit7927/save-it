@@ -20,15 +20,11 @@ public class FolderModel implements Serializable {
     @ColumnInfo(name = Constants.FOLDER_NAME)
     public String name;
 
-    @ColumnInfo(name = Constants.FOLDER_COLOR)
-    public int color;
-
     public FolderModel() {}
 
     @Ignore
-    public FolderModel(String name, int color) {
+    public FolderModel(String name) {
         this.name = name;
-        this.color = color;
     }
 
     @Ignore
@@ -41,7 +37,4 @@ public class FolderModel implements Serializable {
         this.name = name;
     }
 
-    public void setColor(int color) {
-        this.color = color;
-    }
 }

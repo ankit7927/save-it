@@ -1,5 +1,6 @@
 package com.x64technology.saveit.adapters;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -40,7 +41,7 @@ public class FolderAdapter extends RecyclerView.Adapter<FolderAdapter.FolderView
     public void onBindViewHolder(@NonNull FolderViewHolder holder, int position) {
         FolderModel folderModel = folderModels.get(position);
         holder.folderBinding.textView.setText(folderModel.name);
-        holder.folderBinding.folderImage.setImageDrawable(context.getDrawable(folderModel.color));
+        holder.folderBinding.folderImage.setImageDrawable(context.getDrawable(R.drawable.folder_cyan));
 
         holder.itemView.setOnClickListener(v -> folderFragment.onFolderClick(folderModel));
     }

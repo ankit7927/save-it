@@ -15,5 +15,4 @@ public class Constants {
 
     public static final String FOLDER_ID = "folder_id";
     public static final String FOLDER_NAME = "folder_name";
-    public static final String FOLDER_COLOR = "folder_color";
 }

@@ -4,13 +4,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.MenuItem;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import androidx.viewpager2.widget.ViewPager2;
 
+import com.x64technology.saveit.activities.SettingsActivity;
 import com.x64technology.saveit.databinding.ActivityMainBinding;
 import com.x64technology.saveit.activities.EditNoteActivity;
 import com.x64technology.saveit.activities.FolderNotesActivity;
@@ -138,6 +141,16 @@ public class MainActivity extends AppCompatActivity implements NoteFragment, Fol
             @Override
             public void afterTextChanged(Editable s) {
 
+            }
+        });
+
+        mainBinding.materialToolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                if (item.getItemId() == R.id.item_settings) {
+                    startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+                }
+                return false;
             }
         });
     }
