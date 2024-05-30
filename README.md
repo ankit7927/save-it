@@ -7,7 +7,7 @@
 
 <tr>
 <td><img src="https://github.com/ankit7927/save-it/blob/master/snapshots/Screenshot1.png" alt="image 1"/></td>
-<td><img src="https://github.com/ankit7927/save-it/blob/master/snapshots/Screenshot2.png" alt="image 1"/></td>
+<td><img src="https://github.com/ankit7927/save-it/blob/master/snapshots/Screenshot11.png" alt="image 1"/></td>
 <td><img src="https://github.com/ankit7927/save-it/blob/master/snapshots/Screenshot3.png" alt="image 1"/></td>
 </tr>
 
